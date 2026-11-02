@@ -1,0 +1,36 @@
+{
+  "train": [
+    {
+      "text": "reset account password",
+      "intent": "access"
+    },
+    {
+      "text": "refund card payment",
+      "intent": "billing"
+    }
+  ],
+  "calibration": [
+    {
+      "text": "reset password",
+      "intent": "access"
+    },
+    {
+      "text": "planet orbit",
+      "intent": null
+    }
+  ],
+  "test": [
+    {
+      "text": "refund payment",
+      "intent": "billing"
+    },
+    {
+      "text": "gardening tools",
+      "intent": null
+    },
+    {
+      "text": "account flowers",
+      "intent": null
+    }
+  ]
+}

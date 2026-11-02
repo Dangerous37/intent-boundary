@@ -1,0 +1,2 @@
+# Dataset contract
+train contains text and a nonempty intent string. calibration and test contain text and intent or null (outside domain). Normalized texts must be distinct across splits. Score a query by maximum token-set Jaccard similarity to exemplars; ties break by label. Pick the highest threshold maximizing calibration accuracy, including abstentions. Output held-out predictions and false accepts.
